@@ -36,10 +36,9 @@ nav, section {
 
 .about, .portfolio, .contact {
     float: right;
-    color: #dddddd;
+    color: #777777;
     padding: 5px;
     margin-top: 15px;
-
 }
 
 
@@ -71,7 +70,7 @@ article {
 
 p {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 28px;
 }
 
 footer {
@@ -85,3 +84,52 @@ footer {
     right: 0;
     text-align: center;
 }
+
+.about:hover, .portfolio:hover, .contact:hover {
+    color: #cccccc;
+}
+
+.about:active, .portfolio:active, .contact:active {
+    color: #4aaaa5;
+}
+
+.about:focus, .portfolio:focus, .contact:focus {
+    color: #4aaaa5;
+}
+
+.headphones, .dials, .bar, .cat, .food {
+    width: 300px;
+    margin: 5px;
+    position: relative;
+    float: left;
+    
+}
+
+.bar, .food {
+    clear: both;
+}
+
+.inputwidth {
+    width: 915px;
+}
+
+.portfoliobox {
+    height: 900px;
+}
+
+.box1, .box2, .box3, .box4, .box5 {
+    height: 40px;
+    width: 300px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin: 5px;
+    position: absolute;
+    bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.box1:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover {
+    background-color: #dddddd;
+} 
